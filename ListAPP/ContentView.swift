@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     // State to store the list of tasks
     @State private var tasks: [Task] = [
-        Task(title: "Task Demo", notes: "Milk, eggs, bread, and vegetables"),
+        Task(title: "Task Demo", notes: "empty notes"),
         Task(title: "Task Demo2", isCompleted: true, dueDate: Calendar.current.date(byAdding: .day, value: -1, to: Date()), notes: "Complete the to-do list app"),
         Task(title: "Task Demo3", dueDate: Calendar.current.date(byAdding: .day, value: 2, to: Date()))
     ]
