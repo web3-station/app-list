@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  ListAPP
-//
-//  Created by user274669 on 2025/7/5.
-//
+
 
 import SwiftUI
 
